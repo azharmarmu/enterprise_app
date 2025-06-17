@@ -1,4 +1,3 @@
-import 'package:enterprise_app/ui-layer/login_screen.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -12,14 +11,11 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'Login App',
+      title: 'Counter App',
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
-      home: const LoginScreen(),
+
     );
   }
 }
-
-//runApp-> MaterialApp(Theming, Routing, Localization, etc) -> home: Scaffold(AppBar, Body, BottomNavigationBar, FloatingActionButton, etc) -> Widgets(StatelessWidget, StatefulWidget, InheritedWidget, etc)
-
